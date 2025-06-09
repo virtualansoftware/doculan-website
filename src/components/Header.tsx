@@ -27,12 +27,12 @@ const Header = () => {
             <Link to="/solutions" className="text-muted-foreground hover:text-foreground transition-colors">
               Solutions
             </Link>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
               Pricing
-            </a>
-            <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
+            </Link>
+            <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">
               About
-            </a>
+            </Link>
           </nav>
 
           {/* Desktop CTA */}
@@ -60,12 +60,12 @@ const Header = () => {
               <Link to="/solutions" className="text-muted-foreground hover:text-foreground transition-colors">
                 Solutions
               </Link>
-              <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link to="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
                 Pricing
-              </a>
-              <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
+              </Link>
+              <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">
                 About
-              </a>
+              </Link>
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="ghost">Sign In</Button>
                 <Button>Get Started</Button>
