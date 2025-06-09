@@ -12,7 +12,7 @@ const CallToAction = () => {
           </h2>
           <p className="text-xl mb-8 opacity-90">
             Join thousands of companies that have already automated their workflows 
-            and increased productivity by 300% with AutomateSync.
+            and increased productivity by 300% with Doculan.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <Button size="lg" className="bg-white text-primary hover:bg-gray-100 px-8 py-6 text-lg">

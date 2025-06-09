@@ -13,9 +13,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">AS</span>
+              <span className="text-primary-foreground font-bold text-sm">D</span>
             </div>
-            <span className="text-xl font-bold gradient-text">AutomateSync</span>
+            <span className="text-xl font-bold gradient-text">Doculan</span>
           </div>
 
           {/* Desktop Navigation */}
