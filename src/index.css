@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 217 91% 60%;
+    --primary: 200 100% 26%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -25,7 +25,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 180 100% 50%;
+    --accent: 74 82% 50%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -45,6 +45,11 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom Doculan colors */
+    --doculan-green: 74 82% 50%;
+    --doculan-brown: 320 100% 25%;
+    --doculan-blue: 200 100% 26%;
   }
 
   .dark {
@@ -54,13 +59,13 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217 91% 60%;
+    --primary: 200 100% 26%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 180 100% 50%;
+    --accent: 74 82% 50%;
     --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
@@ -75,6 +80,11 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom Doculan colors for dark mode */
+    --doculan-green: 74 82% 50%;
+    --doculan-brown: 320 100% 25%;
+    --doculan-blue: 200 100% 26%;
   }
 }
 
@@ -88,14 +98,15 @@
   }
 }
 
-/* Custom gradient classes */
+/* Custom gradient classes using Doculan colors */
 .gradient-bg {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #B5E61D 0%, #004080 50%, #800040 100%);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #B5E61D 0%, #004080 50%, #800040 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
