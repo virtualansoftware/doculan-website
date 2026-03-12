@@ -13,7 +13,18 @@
             window.dataLayer = window.dataLayer || []; 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-4C3ZH7HRTE');
+
+            /* Default consent state */
+            gtag('consent', 'default', {
+                analytics_storage: 'denied',
+                ad_storage: 'denied',
+                wait_for_update: 500
+            });
+
+            gtag('config', 'G-4C3ZH7HRTE', {
+                anonymize_ip: true,
+                page_path: window.location.pathname + window.location.hash
+            });
         </script>
 
         <!-- Primary Meta Tags -->
